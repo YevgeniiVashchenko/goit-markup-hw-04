@@ -344,13 +344,13 @@ ul {
 .icon-company {
   fill: #afb1b8;
 }
-.icon-company:hover,
-.icon-company:focus {
-  fill: #2196f3;
-}
 .client-icon-link:hover,
 .client-icon-link:focus {
   border-color: #2196f3;
+}
+.client-icon-link:hover .icon-company,
+.client-icon-link:focus .icon-company {
+  fill: #2196f3;
 }
 
 /*-----FOOTER-----*/
@@ -393,14 +393,14 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-map:hover,
 .address-map:focus {
